@@ -1,0 +1,153 @@
+<table width="667" cellpadding="6" cellspacing="0" border="1">
+    <colgroup>
+        <col width="94"/>
+        <col width="181"/>
+        <col width="100"/>
+        <col width="242"/>
+    </colgroup>
+    <tbody>
+        <tr valign="top">
+            <td width="94" height="11">
+                <p lang="en-US">
+                    <strong>版本名称</strong>
+                </p>
+            </td>
+            <td width="181">
+                <p lang="en-US">
+                    TestApp
+                </p>
+            </td>
+            <td width="100">
+                <p lang="en-US">
+                    <strong>版本号</strong>
+                </p>
+            </td>
+            <td width="242">
+                <p lang="en-US">
+                    <%= (message.split(","))[5] %>
+                </p>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="94" height="12">
+                <p lang="en-US">
+                    <strong>构建人员</strong>
+                </p>
+            </td>
+            <td width="181">
+                <p lang="en-US">
+                    <%= (message.split(","))[1] %>
+                </p>
+            </td>
+            <td width="100">
+                <p lang="en-US">
+                    <strong>构建时间</strong>
+                </p>
+            </td>
+            <td width="242">
+                <p lang="en-US">
+                    <%= (message.split(","))[2] %>
+                </p>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="94" height="12">
+                <p lang="en-US">
+                    <strong>GIT地址</strong>
+                </p>
+            </td>
+            <td colspan="3" width="547">
+                <p lang="en-US">
+                    <u>
+                        <a
+                            href="http://gitlab.ops.xkeshi.so/X_iPhone/XPay_iPhone.git"
+                        >
+                            http://gitlab.ops.xkeshi.so/X_iPhone/XPay_iPhone.git
+                        </a>
+                    </u>
+                </p>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="94" height="31">
+                <p lang="en-US">
+                    <strong>GIT Revision</strong>
+                </p>
+            </td>
+            <td colspan="3" width="547">
+                <p lang="en-US">
+                    <%= (message.split(","))[3] %>
+                </p>
+                <p lang="en-US">
+                    ( develop分支)
+                </p>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="94" height="12">
+                <p lang="en-US">
+                    <strong>版本类型</strong>
+                </p>
+            </td>
+            <td colspan="3" width="547">
+                <p lang="en-US">
+                    <%= (message.split(","))[4] %>
+                </p>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="94" height="101">
+                <p lang="en-US" align="left">
+                    <strong>版本配置</strong>
+                </p>
+            </td>
+            <td colspan="3" width="547">
+                <p lang="en-US">
+                    后台地址 <%= (message.split(","))[6] %>
+                </p>
+                <p lang="en-US">
+                    下载地址：
+                </p>
+                <p lang="en-US">
+                    <u>
+                        <a
+                            href="<%= app_link %>"
+                        >
+                            <%= app_link %>
+                        </a>
+                    </u>
+                </p>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="94" height="202">
+                <p lang="en-US">
+                    <strong>修改内容</strong>
+                </p>
+            </td>
+            <td colspan="3" width="547">
+                <p lang="en-US">
+                    <%= (message.split(","))[0] %>
+                </p>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="94" height="76">
+                <p lang="en-US">
+                    <strong>已知问题</strong>
+                </p>
+            </td>
+            <td colspan="3" width="547">
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="94" height="75">
+                <p lang="en-US">
+                    <strong>注意事项</strong>
+                </p>
+            </td>
+            <td colspan="3" width="547">
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="00: Verifying required fastlane version" time="0.001609">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="01: default_platform" time="0.001214">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: Switch to ios xks_cocoapods lane" time="0.001218">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: git -C ~/.cocoapods/repos/XKSPrivatePods pull" time="0.749779">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: git -C ~/.cocoapods/repos/LSPodSpec pull" time="0.484425">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: cocoapods" time="2.828171">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: Switch to ios xks_step lane" time="0.00142">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: gym" time="11.665776">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: Switch to ios xks_ftp lane" time="0.001174">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: ftp" time="0.779821">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: ftp" time="0.737631">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: Switch to ios xks_mail lane" time="0.001407">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: mailgun" time="2.348306">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
