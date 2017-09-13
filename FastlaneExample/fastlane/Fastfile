@@ -149,7 +149,7 @@ platform :ios do
   lane :xks_mail do
     mailgun(
       postmaster: "postmaster@sandbox1668d3cec5ea4f558277fc567c5d59a3.mailgun.org",
-      apikey: "key-1e5d2e5c78abded4d1c4a4001b2faee4",
+      apikey: "xxxxxx",
       to: "lh@xkeshi.com",
       from: XKSConfig_Group,
       success: true,
